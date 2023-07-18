@@ -21,6 +21,7 @@
 		FE0AB7A32A66B56E00CA48CF /* VersionRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0AB7A12A66B56E00CA48CF /* VersionRepositoryTests.swift */; };
 		FE0AB7A62A66B68600CA48CF /* Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0AB7A52A66B68600CA48CF /* Version.swift */; };
 		FE0AB7AC2A66B76800CA48CF /* Version+fixture.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0AB7AA2A66B76800CA48CF /* Version+fixture.swift */; };
+		FE244E462A675A6F000404B4 /* VersionViewTets.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE244E452A675A6F000404B4 /* VersionViewTets.swift */; };
 		FE7AD5762A66C1B500D8D892 /* VersionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7AD5752A66C1B500D8D892 /* VersionView.swift */; };
 		FE7AD5792A66C27100D8D892 /* VersionView+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7AD5782A66C27100D8D892 /* VersionView+ViewModel.swift */; };
 		FE7AD57C2A66C40900D8D892 /* VersionViewViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7AD57B2A66C40900D8D892 /* VersionViewViewModelTests.swift */; };
@@ -62,6 +63,7 @@
 		FE0AB7A12A66B56E00CA48CF /* VersionRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionRepositoryTests.swift; sourceTree = "<group>"; };
 		FE0AB7A52A66B68600CA48CF /* Version.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Version.swift; sourceTree = "<group>"; };
 		FE0AB7AA2A66B76800CA48CF /* Version+fixture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Version+fixture.swift"; sourceTree = "<group>"; };
+		FE244E452A675A6F000404B4 /* VersionViewTets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionViewTets.swift; sourceTree = "<group>"; };
 		FE7AD5752A66C1B500D8D892 /* VersionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionView.swift; sourceTree = "<group>"; };
 		FE7AD5782A66C27100D8D892 /* VersionView+ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VersionView+ViewModel.swift"; sourceTree = "<group>"; };
 		FE7AD57B2A66C40900D8D892 /* VersionViewViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionViewViewModelTests.swift; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 		FE0AB7772A66B34F00CA48CF /* IosSkeletonTests */ = {
 			isa = PBXGroup;
 			children = (
+				FE244E442A675A5A000404B4 /* View */,
 				FE7AD57A2A66C3AD00D8D892 /* ViewModel */,
 				FE0AB7A92A66B75B00CA48CF /* Model */,
 				FE0AB79D2A66B54E00CA48CF /* Repository */,
@@ -206,6 +209,14 @@
 				FE0AB7AA2A66B76800CA48CF /* Version+fixture.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		FE244E442A675A5A000404B4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FE244E452A675A6F000404B4 /* VersionViewTets.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		FE7AD5742A66C1A000D8D892 /* View */ = {
@@ -388,6 +399,7 @@
 				FE0AB7AC2A66B76800CA48CF /* Version+fixture.swift in Sources */,
 				FE0AB7792A66B34F00CA48CF /* IosSkeletonTests.swift in Sources */,
 				FE0AB7A32A66B56E00CA48CF /* VersionRepositoryTests.swift in Sources */,
+				FE244E462A675A6F000404B4 /* VersionViewTets.swift in Sources */,
 				FE7AD57C2A66C40900D8D892 /* VersionViewViewModelTests.swift in Sources */,
 				FE7AD57F2A66C56300D8D892 /* VersionRepositoryDoubles.swift in Sources */,
 				FE0AB79B2A66B3AC00CA48CF /* HttpDoubles.swift in Sources */,

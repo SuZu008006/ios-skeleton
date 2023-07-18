@@ -11,7 +11,7 @@ import SwiftUI
 struct IosSkeletonApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            VersionView(viewModel: .init())
         }
     }
 }

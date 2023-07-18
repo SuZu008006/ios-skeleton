@@ -5,13 +5,15 @@ struct VersionView: View {
     
     init(viewModel: ViewModel) {
         self.viewModel=viewModel
+        self.viewModel.load()
     }
+    
     var body: some View {
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
-            Text("Hello, world!!!!!!")
+            Text(viewModel.version)
         }
         .padding()
     }
